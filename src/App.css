@@ -1,0 +1,74 @@
+.App {
+  min-width: fit-content;
+  margin: 2rem auto;
+  background: lightblue;
+  /*padding: 2rem;*/
+  box-shadow: 0 2px 4px #ddd;
+  font-family: Damascus;
+}
+
+.title {
+  text-align: center;
+}
+
+.subTitle {
+  text-align: center;
+  white-space: pre-wrap;
+}
+
+.container {
+  display: grid;
+  grid-auto-flow: column;
+  align-content: stretch;
+
+  grid-template-columns: auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto auto;
+
+}
+
+.topBox {
+  border-style: solid solid dashed solid;
+}
+.midBox {
+  border-style: dashed solid dashed solid;
+}
+.botBox {
+  border-style: dashed solid solid solid;
+}
+
+.normalDay {
+  padding-top: 25px;
+  min-height: 40px;
+  min-width: 175px;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.rainyDay {
+  background: darkgray;
+  padding-top: 25px;
+  min-height: 40px;
+  min-width: 175px;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.hotDay {
+  background: darkorange;
+  padding-top: 25px;
+  min-height: 40px;
+  min-width: 175px;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.reallyHotDay {
+  background: orangered;
+  padding-top: 25px;
+  min-height: 40px;
+  min-width: 175px;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+
