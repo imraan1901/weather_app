@@ -1,7 +1,7 @@
 ## Weather App built using React and deployed using Google Cloud
 Color Codes:\
-Red - Temperature > 100\
-Orange - Temperature > 90\
+Red - Temperature >= 100\
+Orange - Temperature >= 90\
 Gray - Raining\
 Blue - Normal Weather
 
